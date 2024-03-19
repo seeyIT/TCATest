@@ -23,7 +23,7 @@ platform :ios do
 
     lane :unit_test do |options|
       scan(
-        clean: true,
+        clean: false,
 	xcargs: "-skipPackagePluginValidation" + " " + "-skipMacroValidation",
         skip_package_dependencies_resolution: false
       )
