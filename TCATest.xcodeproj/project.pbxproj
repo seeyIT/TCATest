@@ -222,6 +222,7 @@
 			mainGroup = 5F45EA582BA9CC5C0006F9EC;
 			packageReferences = (
 				5F45EA912BA9CD780006F9EC /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				5F45EA952BA9E4E20006F9EC /* XCRemoteSwiftPackageReference "swift-syntax" */,
 			);
 			productRefGroup = 5F45EA622BA9CC5C0006F9EC /* Products */;
 			projectDirPath = "";
@@ -604,6 +605,14 @@
 			requirement = {
 				kind = exactVersion;
 				version = 1.9.2;
+			};
+		};
+		5F45EA952BA9E4E20006F9EC /* XCRemoteSwiftPackageReference "swift-syntax" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-syntax";
+			requirement = {
+				kind = exactVersion;
+				version = 510.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
